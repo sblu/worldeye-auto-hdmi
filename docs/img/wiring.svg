@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 740" width="980" height="740" font-family="Helvetica,Arial,sans-serif">
+<rect width="980" height="740" fill="#ffffff"/>
+<text x="24" y="34" font-size="20" font-weight="bold" fill="#111">W25Q32 flash (in the SOIC-8 clip) to Raspberry Pi 40-pin header</text>
+<text x="24" y="56" font-size="13" fill="#444">Globe unplugged. The Pi powers the chip through the clip. Pin 3 link is needed for writing only.</text>
+<rect x="40" y="130" width="120" height="150" rx="6" fill="#2b2b2b"/>
+<circle cx="56" cy="146" r="6" fill="#bbbbbb"/>
+<text x="100.0" y="205.0" font-size="13" fill="#fff" text-anchor="middle">W25Q32</text>
+<text x="100.0" y="221.0" font-size="11" fill="#ccc" text-anchor="middle">top view</text>
+<rect x="24" y="148" width="16" height="12" fill="#999"/><text x="18" y="158" font-size="12" text-anchor="end" fill="#111">1</text>
+<rect x="160" y="148" width="16" height="12" fill="#999"/><text x="182" y="158" font-size="12" fill="#111">8</text>
+<rect x="24" y="182" width="16" height="12" fill="#999"/><text x="18" y="192" font-size="12" text-anchor="end" fill="#111">2</text>
+<rect x="160" y="182" width="16" height="12" fill="#999"/><text x="182" y="192" font-size="12" fill="#111">7</text>
+<rect x="24" y="216" width="16" height="12" fill="#999"/><text x="18" y="226" font-size="12" text-anchor="end" fill="#111">3</text>
+<rect x="160" y="216" width="16" height="12" fill="#999"/><text x="182" y="226" font-size="12" fill="#111">6</text>
+<rect x="24" y="250" width="16" height="12" fill="#999"/><text x="18" y="260" font-size="12" text-anchor="end" fill="#111">4</text>
+<rect x="160" y="250" width="16" height="12" fill="#999"/><text x="182" y="260" font-size="12" fill="#111">5</text>
+<text x="100.0" y="300" font-size="12" fill="#444" text-anchor="middle">dot = pin 1</text>
+<text x="100.0" y="316" font-size="12" fill="#444" text-anchor="middle">(clip red wire)</text>
+<text x="230" y="120" font-size="13" font-weight="bold" fill="#111">Chip pin (clip adapter)</text>
+<rect x="230" y="134" width="110" height="32" rx="4" fill="#f2f2f2" stroke="#888"/>
+<text x="240" y="155" font-size="14" fill="#111"><tspan font-weight="bold">1</tspan>  /CS</text>
+<rect x="230" y="196" width="110" height="32" rx="4" fill="#f2f2f2" stroke="#888"/>
+<text x="240" y="217" font-size="14" fill="#111"><tspan font-weight="bold">2</tspan>  DO</text>
+<rect x="230" y="258" width="110" height="32" rx="4" fill="#f2f2f2" stroke="#888"/>
+<text x="240" y="279" font-size="14" fill="#111"><tspan font-weight="bold">3</tspan>  /WP</text>
+<rect x="230" y="320" width="110" height="32" rx="4" fill="#f2f2f2" stroke="#888"/>
+<text x="240" y="341" font-size="14" fill="#111"><tspan font-weight="bold">4</tspan>  GND</text>
+<rect x="230" y="382" width="110" height="32" rx="4" fill="#f2f2f2" stroke="#888"/>
+<text x="240" y="403" font-size="14" fill="#111"><tspan font-weight="bold">5</tspan>  DI</text>
+<rect x="230" y="444" width="110" height="32" rx="4" fill="#f2f2f2" stroke="#888"/>
+<text x="240" y="465" font-size="14" fill="#111"><tspan font-weight="bold">6</tspan>  CLK</text>
+<rect x="230" y="506" width="110" height="32" rx="4" fill="#f2f2f2" stroke="#888"/>
+<text x="240" y="527" font-size="14" fill="#111"><tspan font-weight="bold">7</tspan>  /HOLD</text>
+<rect x="230" y="568" width="110" height="32" rx="4" fill="#f2f2f2" stroke="#888"/>
+<text x="240" y="589" font-size="14" fill="#111"><tspan font-weight="bold">8</tspan>  VCC</text>
+<text x="760" y="108" font-size="13" font-weight="bold" fill="#111">Raspberry Pi header</text>
+<text x="760" y="123" font-size="11" fill="#444">pin 1 = corner nearest the microSD slot</text>
+<rect x="752" y="130" width="76" height="568" rx="4" fill="#1b5e20" opacity="0.12" stroke="#1b5e20"/>
+<circle cx="770" cy="148" r="9" fill="#9467bd" stroke="#555"/>
+<text x="770" y="152" font-size="10" text-anchor="middle" fill="#fff" font-weight="bold">1</text>
+<circle cx="810" cy="148" r="9" fill="#cfcfcf" stroke="#555"/>
+<text x="824" y="152" font-size="11" text-anchor="start" fill="#444">2</text>
+<circle cx="770" cy="176" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="810" cy="176" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="770" cy="204" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="810" cy="204" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="770" cy="232" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="810" cy="232" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="770" cy="260" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="810" cy="260" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="770" cy="288" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="810" cy="288" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="770" cy="316" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="810" cy="316" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="770" cy="344" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="810" cy="344" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="770" cy="372" r="9" fill="#e377c2" stroke="#555"/>
+<text x="770" y="376" font-size="10" text-anchor="middle" fill="#fff" font-weight="bold">17</text>
+<circle cx="810" cy="372" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="770" cy="400" r="9" fill="#2ca02c" stroke="#555"/>
+<text x="770" y="404" font-size="10" text-anchor="middle" fill="#fff" font-weight="bold">19</text>
+<circle cx="810" cy="400" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="770" cy="428" r="9" fill="#1f77b4" stroke="#555"/>
+<text x="770" y="432" font-size="10" text-anchor="middle" fill="#fff" font-weight="bold">21</text>
+<circle cx="810" cy="428" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="770" cy="456" r="9" fill="#ff7f0e" stroke="#555"/>
+<text x="770" y="460" font-size="10" text-anchor="middle" fill="#fff" font-weight="bold">23</text>
+<circle cx="810" cy="456" r="9" fill="#d62728" stroke="#555"/>
+<text x="810" y="460" font-size="10" text-anchor="middle" fill="#fff" font-weight="bold">24</text>
+<circle cx="770" cy="484" r="9" fill="#111111" stroke="#555"/>
+<text x="770" y="488" font-size="10" text-anchor="middle" fill="#fff" font-weight="bold">25</text>
+<circle cx="810" cy="484" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="770" cy="512" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="810" cy="512" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="770" cy="540" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="810" cy="540" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="770" cy="568" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="810" cy="568" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="770" cy="596" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="810" cy="596" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="770" cy="624" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="810" cy="624" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="770" cy="652" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="810" cy="652" r="9" fill="#cfcfcf" stroke="#555"/>
+<circle cx="770" cy="680" r="9" fill="#cfcfcf" stroke="#555"/>
+<text x="756" y="684" font-size="11" text-anchor="end" fill="#444">39</text>
+<circle cx="810" cy="680" r="9" fill="#cfcfcf" stroke="#555"/>
+<text x="824" y="684" font-size="11" text-anchor="start" fill="#444">40</text>
+<polyline points="340,150 480,150 480,84 955,84 955,456 819,456" fill="none" stroke="#d62728" stroke-width="3"/>
+<text x="348" y="143" font-size="11" fill="#d62728">to Pi pin 24: CE0 (GPIO8)</text>
+<polyline points="340,212 610,212 610,428 761,428" fill="none" stroke="#1f77b4" stroke-width="3"/>
+<text x="348" y="205" font-size="11" fill="#1f77b4">to Pi pin 21: MISO (GPIO9)</text>
+<polyline points="340,274 728,274 728,148 761,148" fill="none" stroke="#9467bd" stroke-width="3"/>
+<text x="348" y="267" font-size="11" fill="#9467bd">to Pi pin 1: 3.3 V via 1 kΩ</text>
+<rect x="652" y="265" width="56" height="18" fill="#fff" stroke="#9467bd" stroke-width="2.5"/>
+<text x="680" y="279" font-size="12" text-anchor="middle" fill="#111" font-weight="bold">1 kΩ</text>
+<polyline points="340,336 550,336 550,484 761,484" fill="none" stroke="#111111" stroke-width="3"/>
+<text x="348" y="329" font-size="11" fill="#111111">to Pi pin 25: GND</text>
+<polyline points="340,398 640,398 640,400 761,400" fill="none" stroke="#2ca02c" stroke-width="3"/>
+<text x="348" y="391" font-size="11" fill="#2ca02c">to Pi pin 19: MOSI (GPIO10)</text>
+<polyline points="340,460 580,460 580,456 761,456" fill="none" stroke="#ff7f0e" stroke-width="3"/>
+<text x="348" y="453" font-size="11" fill="#ff7f0e">to Pi pin 23: SCLK (GPIO11)</text>
+<text x="352" y="527" font-size="13" fill="#777" font-style="italic">leave unconnected</text>
+<polyline points="340,584 520,584 520,372 761,372" fill="none" stroke="#e377c2" stroke-width="3"/>
+<text x="348" y="577" font-size="11" fill="#e377c2">to Pi pin 17: 3.3 V</text>
+<text x="24" y="700" font-size="13" fill="#111">Reading needs pins 1, 2, 4, 5, 6, 8 only. Writing also needs pin 3 pulled to 3.3 V through the resistor: the board holds /WP low</text>
+<text x="24" y="718" font-size="13" fill="#111">with about 10 kΩ, and the chip refuses to unlock until it is high. Never connect anything here to a 5 V pin (Pi pins 2 and 4).</text>
+</svg>

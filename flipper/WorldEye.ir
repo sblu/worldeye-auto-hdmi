@@ -1,0 +1,164 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: 00 FF 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: 5D A2 00 00
+# 
+name: OK
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: 5E A1 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: 18 E7 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: 03 FC 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: 42 BD 00 00
+# 
+name: Home
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: 01 FE 00 00
+# 
+name: Back
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: 1B E4 00 00
+# 
+name: Plus
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: 40 BF 00 00
+# 
+name: Minus
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: 41 BE 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: 13 EC 00 00
+# 
+name: Clear
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: 1A E5 00 00
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: 02 FD 00 00
+# 
+name: 2
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: 07 F8 00 00
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: 05 FA 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: 06 F9 00 00
+# 
+name: Play_Pause
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: 16 E9 00 00
+# 
+name: D0
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: D1 2E 00 00
+# 
+name: D1
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: AD 52 00 00
+# 
+name: D2
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: 1C E3 00 00
+# 
+name: D3
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: AF 50 00 00
+# 
+name: D4
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: B0 4F 00 00
+# 
+name: D5
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: 0C F3 00 00
+# 
+name: D6
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: B2 4D 00 00
+# 
+name: D7
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: B3 4C 00 00
+# 
+name: D8
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: 0D F2 00 00
+# 
+name: D9
+type: parsed
+protocol: NECext
+address: 80 63 00 00
+command: B5 4A 00 00

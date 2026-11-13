@@ -1,0 +1,11 @@
+# Firmware images are copyrighted by their owners and specific to each unit: never commit them.
+*.bin
+dumps/*
+!dumps/README.md
+build/
+images/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+ghidra_projects/
