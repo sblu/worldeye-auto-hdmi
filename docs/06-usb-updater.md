@@ -122,7 +122,39 @@ unit the sector holding that byte was rewritten with the clip first
 - What the unit shows when it rejects a file (not provoked in the tests).
 - Whether other file sizes work; 0x3a0000 was chosen as a multiple of 64 KB.
 
-## Why not just publish a MERGE.BIN?
+## Using a MERGE.BIN made from another unit
 
-Because it would be the firmware itself. Anyone following this needs their
-own dump to build one, which means using the clip at least once anyway.
+Mechanically, nothing more is needed than the steps under "Running an
+update": the file on a FAT32 stick as `MERGE.BIN`, Up, Down, Left, Right,
+then OK. The seed image is not part of a real update; it exists only for the
+write-nothing trial.
+
+Whether it is a good idea is another matter. All testing was on a single
+unit, with files built from that unit's own dump. On a different unit:
+
+- **Almost the whole flash is replaced by the donor's.** The file is the
+  donor chip from offset 0 to 0x3a0000: bootloader, application, start-up
+  animation and data tables. Only the settings area is left alone. Every
+  block that differs is overwritten.
+- **That range may hold per-unit data.** Not everything between the
+  application and the settings area has been identified. If calibration
+  values or HDMI keys are stored there, the unit ends up with the donor's
+  copies. Whether units differ at all is unknown, since only one has been
+  examined.
+- **A different hardware or firmware revision could be left unable to
+  start.** The firmware half can be checked before confirming: the "Software
+  Update?" page shows the build date, and the tested unit reads
+  `Nov 18 2013, 11:47:24`. If yours shows anything else, stop.
+- **A failed update erases the bootloader** (step 7 above). Power loss or a
+  bad stick during the write leaves a unit that only a clip programmer can
+  revive, and without a clip there is no backup of the unit's own firmware
+  to go back to.
+
+The safer route is the one this repository describes: dump your own chip
+first, build the file from that dump, and keep the dump.
+
+## Why there is no MERGE.BIN in this repository
+
+Because it would be the firmware itself, which is copyrighted and not ours
+to distribute. Building one takes a dump of your own unit, which means using
+the clip at least once, and leaves you with a backup.
