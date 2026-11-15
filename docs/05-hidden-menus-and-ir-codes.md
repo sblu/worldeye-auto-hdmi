@@ -20,8 +20,6 @@ digit keys as far as the firmware is concerned, so the digit sequences need a
 programmable remote such as a Flipper Zero (`flipper/WorldEye.ir`, buttons
 `D0` to `D9`).
 
-> TODO: replace the three menu photos below with clean, straight-on shots once the unit is reassembled.
-
 ![Software Update page](img/menu-software-update.jpg)
 
 The Software Update page is the entry to the USB updater described in
