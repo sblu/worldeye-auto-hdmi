@@ -1,5 +1,6 @@
 # Firmware images are copyrighted by their owners and specific to each unit: never commit them.
 *.bin
+*.BIN
 dumps/*
 !dumps/README.md
 build/

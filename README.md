@@ -66,10 +66,11 @@ drives its data lines at 5 V and the flash is a 3.3 V part.
 | [03 The patches](docs/03-patches.md) | What the firmware does at start-up and the two instructions that change |
 | [04 Flashing with a Raspberry Pi](docs/04-flashing-with-a-raspberry-pi.md) | Wiring diagram, dumping, the write-protect resistor, writing, restoring |
 | [05 Hidden menus and IR codes](docs/05-hidden-menus-and-ir-codes.md) | Key sequences, the full IR code table, Flipper Zero file |
-| [06 USB updater](docs/06-usb-updater.md) | The built-in `MERGE.BIN` updater: what the code shows, not yet tried |
+| [06 USB updater](docs/06-usb-updater.md) | The built-in `MERGE.BIN` updater: what the code does, a builder tool, how to run it, test record |
 | [07 Troubleshooting and open questions](docs/07-troubleshooting-and-open-questions.md) | Read glitches, a weak flash bit, an intermittent start-up fault, things not yet known |
 
 Tools: `tools/fwimage.py` (unpack / patch / repack, with tests in `tests/`),
+`tools/mergebin.py` (builds a `MERGE.BIN` for the USB updater),
 `tools/pi/` (scripts that run on the Pi), `flipper/WorldEye.ir`,
 `ghidra_scripts/` (headless helper scripts used during the analysis).
 

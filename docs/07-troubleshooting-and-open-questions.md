@@ -22,6 +22,20 @@ If your dumps keep differing in a single byte at the same offset, compare them
 with `cmp -l` and suspect the same thing. `writeapp.sh` can be told to ignore
 one offset: `WEAK_OFFSET=0x149873 ./writeapp.sh image.bin`.
 
+The byte can also be renewed. Erasing and rewriting its 4 KB sector with the
+clip made it read steadily on the tested unit (one read straight afterwards
+differed, for a reason not examined; every dump since has agreed):
+
+```
+REFRESH=1 REGION_START=0x149000 REGION_END=0x14a000 ./writeapp.sh ~/images/your_image.bin
+```
+
+`REFRESH=1` erases the region before writing it, so the cells are freshly
+programmed even where the chip already reads correctly. The image must hold
+the value you believe is right (here 0x31, which fits the neighbouring table
+entries). This matters for the USB updater ([06](06-usb-updater.md)), which
+treats any difference between file and chip as a reason to rewrite.
+
 ## Write refused
 
 `Failed to unlock flash status reg with wp support` followed by a verify
